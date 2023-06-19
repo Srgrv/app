@@ -12,6 +12,7 @@ const FieldTodoPage = () => {
   const onSubmit = (data) => {
     dispatch(addTaskAsync(data.addTask));
     console.log(data);
+    reset();
   };
 
   return (

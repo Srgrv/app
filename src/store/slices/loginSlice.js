@@ -28,7 +28,7 @@ export const postLoginAsync = createAsyncThunk(
 const loginSlice = createSlice({
   name: "login",
   initialState: {
-    email: "null",
+    email: null,
   },
   reducers: {
     changeEmail(state, action) {

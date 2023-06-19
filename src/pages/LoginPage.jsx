@@ -23,6 +23,7 @@ const LoginPage = () => {
         cb: () => navigate(from, { replace: true }),
       })
     );
+    reset();
   };
 
   return (
